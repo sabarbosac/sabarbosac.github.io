@@ -32,6 +32,8 @@
       <option name="presentableId" value="Default" />
       <updated>1579996997507</updated>
       <workItem from="1579997008654" duration="2964000" />
+      <workItem from="1580001126193" duration="314000" />
+      <workItem from="1580142049036" duration="2488000" />
     </task>
     <servers />
   </component>
@@ -39,10 +41,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2227" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1580001129950">
+    <state x="2227" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1580142112606">
       <screen x="1680" y="0" width="1680" height="1010" />
     </state>
     <state x="547" y="333" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1579997015322" />
-    <state x="2227" y="333" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1580001129950" />
+    <state x="2227" y="333" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1580142112606" />
   </component>
 </project>
