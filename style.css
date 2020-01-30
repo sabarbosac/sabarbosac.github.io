@@ -7,11 +7,12 @@ h1 {
 . images_div{
     height: 50%;
     width: 50%;
+    align-items: center;
 }
 . image_div{
     height: 50%;
     width: 50%;
-    position: center;
+
 }
 
 h3   {color: black; }
