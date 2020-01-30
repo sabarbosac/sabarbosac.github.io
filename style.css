@@ -4,5 +4,9 @@ h1 {
     font-family: "Lucinda Grande", "Lucinda Sans Unicode", "Helvetica", "Arial", "Verdana", sans-serif;
     align-content: center;
 }
+. image_div{
+    height: 50%;
+    width: 50%;
+}
 h3   {color: black; }
 p    {color: black;}
