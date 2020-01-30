@@ -4,15 +4,14 @@ h1 {
     font-family: "Lucinda Grande", "Lucinda Sans Unicode", "Helvetica", "Arial", "Verdana", sans-serif;
     text-align: center ;
 }
-. images_div{
+#image-content img {
      height: 50%;
      width: 50%;
 }
-. image_div{
-    display: block;
-    margin: auto;
-    height: 50%;
-    width: 50%;
+
+#image-content img {
+display:block;
+margin:auto;
 }
 
 
