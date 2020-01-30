@@ -1,0 +1,11 @@
+body {background-color: aqua;}
+h1 {
+    color: black;
+    font-family: "Lucinda Grande", "Lucinda Sans Unicode", "Helvetica", "Arial", "Verdana", sans-serif;
+    text-align: center;
+    font-size: xx-large;
+
+}
+p    {color: black;
+       font-size: large ;
+}
