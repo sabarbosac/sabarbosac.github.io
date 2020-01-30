@@ -5,6 +5,7 @@ h1 {
     text-align: center ;
 }
 . images_div{
+    display: block;
     height: 50%;
     width: 50%;
     margin-left: auto;
