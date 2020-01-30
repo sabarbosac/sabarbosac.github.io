@@ -7,7 +7,7 @@ h1 {
 . images_div{
     height: 50%;
     width: 50%;
-    align-items: center;
+    margin: auto;
 }
 . image_div{
     height: 50%;
