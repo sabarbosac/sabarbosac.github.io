@@ -28,6 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -48,7 +49,7 @@
       <workItem from="1580001126193" duration="314000" />
       <workItem from="1580142049036" duration="2834000" />
       <workItem from="1580351200331" duration="3799000" />
-      <workItem from="1580401922311" duration="6661000" />
+      <workItem from="1580401922311" duration="6955000" />
     </task>
     <servers />
   </component>
