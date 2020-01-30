@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -17,9 +24,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\barbosas\Documents\GitHub\sabarbosac.github.i.o" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -33,7 +46,8 @@
       <updated>1579996997507</updated>
       <workItem from="1579997008654" duration="2964000" />
       <workItem from="1580001126193" duration="314000" />
-      <workItem from="1580142049036" duration="2488000" />
+      <workItem from="1580142049036" duration="2834000" />
+      <workItem from="1580351200331" duration="2256000" />
     </task>
     <servers />
   </component>
@@ -41,10 +55,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2227" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1580142112606">
+    <state x="2023" y="151" key="SettingsEditor" timestamp="1580352970086">
+      <screen x="1680" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2023" y="151" key="SettingsEditor/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1580352970086" />
+    <state x="2227" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1580351212242">
       <screen x="1680" y="0" width="1680" height="1010" />
     </state>
     <state x="547" y="333" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1579997015322" />
-    <state x="2227" y="333" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1580142112606" />
+    <state x="2227" y="333" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1580351212242" />
   </component>
 </project>
