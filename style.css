@@ -6,19 +6,18 @@ h1 {
 }
 . images_div{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     height: 50%;
     width: 50%;
 }
 . image_div{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     height: 50%;
     width: 50%;
-
 }
+
+
 
 h3   {color: black; }
 p    {color: black;}
