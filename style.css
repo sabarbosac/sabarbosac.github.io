@@ -6,10 +6,10 @@ h1 {
 }
 . images_div{
     display: block;
-    height: 50%;
-    width: 50%;
     margin-left: auto;
     margin-right: auto;
+    height: 50%;
+    width: 50%;
 }
 . image_div{
     height: 50%;
