@@ -2,7 +2,7 @@ body {background-color: palegreen;}
 h1 {
     color: blue;
     font-family: "Lucinda Grande", "Lucinda Sans Unicode", "Helvetica", "Arial", "Verdana", sans-serif;
-    align-content: center;
+    text-align: center ;
 }
 . images_div{
     height: 50%;
@@ -11,7 +11,7 @@ h1 {
 . image_div{
     height: 50%;
     width: 50%;
-    align-content: center;
+    
 }
 
 h3   {color: black; }
