@@ -1,0 +1,17 @@
+body {background-color: palegreen;}
+h1 {
+    color: blue;
+    font-family: "Lucinda Grande", "Lucinda Sans Unicode", "Helvetica", "Arial", "Verdana", sans-serif;
+    text-align: center ;
+    font-size: 40px;
+}
+
+p    {color: black;
+      font-family: "Arial Black";
+      font-size: 20px;
+}
+#result
+    {color: black;
+      font-family: "Arial Black";
+      font-size: 30px;
+}
