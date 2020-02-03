@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>index with style</title>
+<link rel="stylesheet" type="text/css" href="conversor.css">
+    <meta charset="UTF-8">
+    <title>This is my conversor</title>
+</head>
+<body>
+    <h1> Welcome to my Convertor!!! </h1>
+    <div>
+        <div id="number">
+           <p> Enter the desired number to be converted:<br> </p>
+            <input id="distance" type="text" name="distance">
+            <select id="units1">
+                  <option value="Inches">Inches</option>
+                  <option value="Feet">Feet</option>
+                  <option value="Yard">Yard</option>
+                  <option value="Miles"> Miles</option>
+                  <option value="Meters">Meters</option>
+                  <option value="Kilometers">Kilometers</option>
+            </select><br>
+           <p> Select the unit of the output: </p>
+             <select id="units2">
+                  <option value="Inches">Inches</option>
+                  <option value="Feet">Feet</option>
+                  <option value="Yard">Yard</option>
+                  <option value="Miles"> Miles</option>
+                  <option value="Meters">Meters</option>
+                  <option value="Kilometers">Kilometers</option>
+            </select><br>
+            <br>
+
+              <button id= "convertMe" type="button">Convert</button>
+        </div>
+
+        <div id="result">
+
+        </div>
+    </div>
+    <script type="text/javascript" src="conversor.js"></script>
+</body>
+</html>
