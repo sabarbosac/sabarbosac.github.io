@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Info Windows</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 90%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+      // This example displays a marker at the center of Australia.
+      // When the user clicks the marker, an info window opens.
+
+      function initMap() {
+        var bogota = {lat: 4.6097102, lng: -74.081749};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: bogota
+        });
+
+        var contentString = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">Bogota</h1>'+
+            '<div id="bodyContent">'+
+            '<p><b>Bogota</b>, oficially <b>Bogotá, Distrito Capital</b>, is the capital and largest city of Colombia ' +
+
+                '<b>Geography </b>Bogotá is located in the southeastern part of the Bogotá savanna (Sabana de Bogotá)'+
+                'at an average altitude of 2,640 metres (8,660 ft) above sea level. '+
+                'The Bogotá savanna is popularly called "savannah" (sabana), but constitutes actually a high plateau in the Andes mountains, '+
+                'part of an extended region known as the Altiplano Cundiboyacense, which literally means "high plateau of Cundinamarca and Boyacá". '+
+
+                '<b>Climate </b>Bogotá has a subtropical highland climate '+
+                'The average temperature is 14.5 °C (58 °F), varying from 6 to 19 °C (43 to 66 °F) on sunny days to 10 to 18 °C (50 to 64 °F) on rainy days. '+
+                'Dry and rainy seasons alternate throughout the year. The driest months are December, January, July and August '+
+                'The official highest temperature recorded within the city limits is 30.0 °C (86 °F),[46] and the lowest temperature recorded is −7.1 °C (19 °F). '+
+
+
+            '<p>Attribution: Bogota, <a href="https://en.wikipedia.org/wiki/Bogot%C3%A1">'+
+            'https://en.wikipedia.org/wiki/Bogot%C3%A1</a> '+
+            '(last visited February 07, 2020).</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+
+        var marker = new google.maps.Marker({
+          position: bogota,
+          map: map,
+          title: 'Bogota DC'
+        });
+        marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
+        //AIzaSyAXS6eLxCWdf31JokswS3GbO582iuY0PqI
+      }
+    </script>
+    <script async defer
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXS6eLxCWdf31JokswS3GbO582iuY0PqI&callback=initMap">
+    </script>
+  </body>
+</html>
