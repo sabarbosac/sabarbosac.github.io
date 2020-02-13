@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>index with style</title>
+<link rel="stylesheet" type="text/css" href="manning.css">
+    <meta charset="UTF-8">
+   </head>
+<body>
+    <h1> Velocity calculator using Manning Equation in an open Channel !!! </h1>
+
+<div id="format">
+<form action="/action_page.php">
+
+     <p>Please select your unit system:</p>
+  <input type="radio" id="English" name="units" value="English">
+  <label for="English">English</label>
+  <input type="radio" id="SI" name="units" value="SI">
+  <label for="SI">SI</label><br> <br>
+
+
+
+  <label for="n">Surface Roughness Coefficient:</label>
+  <input type="number" id="n" name="n"><br><br>
+  <label for="s">Slope:</label>
+  <input type="number" id="s" name="s"><br><br>
+  <label for="w">Width:</label>
+  <input type="number" id="w" name="w"><br><br>
+  <label for="d">Depth:</label>
+  <input type="number" id="d" name="d"><br><br>
+
+  <button id= "btn" type="button">Submit</button>
+
+</form>
+        <br>
+
+        <div id="result">
+
+        </div>
+    </div>
+    <script type="text/javascript" src="manning.js"></script>
+</body>
+</html>
