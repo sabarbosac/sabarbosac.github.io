@@ -1,0 +1,18 @@
+body {
+
+    background-image: url("manning-open-channel-flow-equation.png"), url("channel-calc.gif") ;
+    background-position: left bottom, right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed;
+    background-size: 30% 50%, 70% 70% ;
+
+}
+#format{
+    margin-left: 10%;
+}
+
+h1 {
+    color: blue;
+    font-family: "Lucinda Grande", "Lucinda Sans Unicode", "Helvetica", "Arial", "Verdana", sans-serif;
+    text-align: center ;
+}
