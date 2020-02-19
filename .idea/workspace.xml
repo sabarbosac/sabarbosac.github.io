@@ -67,7 +67,7 @@
       <workItem from="1581551950305" duration="4201000" />
       <workItem from="1581612429836" duration="7130000" />
       <workItem from="1581720818763" duration="15475000" />
-      <workItem from="1582137936159" duration="1321000" />
+      <workItem from="1582137936159" duration="1647000" />
     </task>
     <servers />
   </component>
@@ -107,7 +107,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Map_leaflet.html</url>
-          <line>96</line>
+          <line>95</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
