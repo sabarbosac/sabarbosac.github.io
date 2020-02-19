@@ -2,7 +2,7 @@
 
 
 function mannings (n, s, w, d, x){
-    let velocity=(x/n)*Math.pow((w*d)/(2*d+w),(2/3))*Math.pow(s,(1/2));
+    let velocity=(x/n)*((w*d)/(2*d+w))**(2/3)*(s**(1/2));
     return velocity;
 }
 function test () {
