@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+<title>Bogota Map</title>
+
+
+<!--   REFERENCE THE LEAFLET CSS AND JAVASCRIPT FILES-->
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
+
+
+<!--   ADD MAP DIV AND STYLE IT-->
+
+   <style>
+   #map {
+   width: border-box;
+   height: 650px;
+   }
+   </style>
+
+</head>
+<link rel="stylesheet" type="text/css" href="style3.css">
+ <body>
+      <div id="prin">
+
+       <h3> My Hometown Map </h3><h2>Sergio Barbosa CEE 514 02/17/2020 </h2>
+      <h2> HW7-Build an Interactive Page with Leaflet Open Source Mapping API </h2>
+
+      </div>
+<div id="map"></div>
+
+<!--   INITIALIZE MAP  (Coordinates and zoom)-->
+
+<script>
+ //  create map object
+    var map = L.map('map').setView([4.60971,  -74.08175],10);
+
+
+ //  add base map tiles from OpenStreetMap and attribution info to 'map' div
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+<!--   ADD A DEFAULT MARKER-->
+
+
+  // create popup contents
+    var customPopup = "Bogota<br/><img src='https://www.as-coa.org/sites/default/files/field/image/optimized%20AdobeStock_Downtown_Bogota_web__1528727470_50.74.96.234.jpg' alt='maptime logo gif' width='350px'/>";
+    // specify popup options
+    var customOptions = {
+     'maxWidth': '500',
+     'className' : 'custom'
+    }
+   L.marker([4.587054, -74.075697],).bindPopup(customPopup,customOptions).addTo(map);
+
+
+  // create popup contents 2
+    var customPopup = "Residential Building Portus Alejandria<br/><img src='https://lh5.googleusercontent.com/p/AF1QipMoLpLljg-78BKThBXgQms0X3dgKMyl0UPlMVD3=w408-h290-k-no' alt='maptime logo gif' width='350px'/>";
+    // specify popup options
+    var customOptions = {
+     'maxWidth': '500',
+     'className' : 'custom'
+    }
+   L.marker([4.740884, -74.056255],).bindPopup(customPopup,customOptions).addTo(map);
+
+
+      // create popup contents 3
+    var customPopup = "St. Bartholomew Major College<br/><img src='https://i.ytimg.com/vi/CRxqGCGMGcQ/maxresdefault.jpg' alt='maptime logo gif' width='350px'/>";
+    // specify popup options
+    var customOptions = {
+     'maxWidth': '500',
+     'className' : 'custom'
+    }
+   L.marker([4.597055, -74.075795],).bindPopup(customPopup,customOptions).addTo(map);
+
+      // create popup contents 4
+    var customPopup = "National University of Colombia<br/><img src='https://upload.wikimedia.org/wikipedia/commons/d/de/Auditorio_Le%C3%B3n_de_Greiff-frente.JPG' alt='maptime logo gif' width='350px'/>";
+    // specify popup options
+    var customOptions = {
+     'maxWidth': '500',
+     'className' : 'custom'
+    }
+   L.marker([4.637937, -74.085205],).bindPopup(customPopup,customOptions).addTo(map);
+
+
+    var circle = L.circle([4.637937, -74.085205], {
+    color: 'blue',
+    fillColor: '#00f',
+    fillOpacity: 0.15,
+    radius: 30000
+   }).addTo(map);
+
+   var polygon = L.polygon([
+        [4.740990, -74.056490],
+       [4.739823, -74.056825],
+       [4.739639, -74.056107],
+       [4.740786, -74.055782]
+   ]) .addTo(map);
+
+
+
+
+
+</script>
+
+</body>
+
+</html>
