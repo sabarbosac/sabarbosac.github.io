@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db2b1bfa-350f-47f4-b000-309276a178b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Map_leaflet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapleaflet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapleaflet.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manning.js" beforeDir="false" afterPath="$PROJECT_DIR$/manning.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map_leaflet.html" beforeDir="false" afterPath="$PROJECT_DIR$/Map_leaflet.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +64,9 @@
       <workItem from="1581551950305" duration="4201000" />
       <workItem from="1581612429836" duration="7130000" />
       <workItem from="1581720818763" duration="15475000" />
-      <workItem from="1582137936159" duration="1647000" />
+      <workItem from="1582137936159" duration="2720000" />
+      <workItem from="1582325335855" duration="4173000" />
+      <workItem from="1582561894867" duration="4734000" />
     </task>
     <servers />
   </component>
@@ -91,26 +90,15 @@
       <screen x="1680" y="0" width="1680" height="1010" />
     </state>
     <state x="2023" y="151" key="SettingsEditor/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1580352970086" />
-    <state x="2227" y="333" width="802" height="343" key="com.intellij.ide.util.TipDialog" timestamp="1582137935014">
+    <state x="2227" y="333" width="802" height="343" key="com.intellij.ide.util.TipDialog" timestamp="1582561896232">
       <screen x="1680" y="0" width="1680" height="1010" />
     </state>
     <state x="547" y="333" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1579997015322" />
-    <state x="2227" y="333" width="802" height="343" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1582137935014" />
-    <state x="625" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581628197248" />
+    <state x="2227" y="333" width="802" height="343" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1582561896232" />
+    <state x="625" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582230639272" />
     <state x="3103" y="1012" width="709" height="819" key="find.popup" timestamp="1580408931570">
       <screen x="1680" y="0" width="1680" height="1010" />
     </state>
     <state x="3103" y="1012" width="709" height="819" key="find.popup/0.0.1680.1010/1680.0.1680.1010@1680.0.1680.1010" timestamp="1580408931570" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Map_leaflet.html</url>
-          <line>95</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
