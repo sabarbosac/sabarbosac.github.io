@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+       <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""
+    />
+
+    <script
+      src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+      integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+      crossorigin=""
+    ></script>
+
+<title>Visited countries</title>
+
+<style>
+#map {
+   width: content-box;
+   height: 600px;
+
+}
+</style>
+
+</head>
+<link rel="stylesheet" type="text/css" href="style3.css">
+<body>
+      <div id="prin">
+      <h3> Visited Countries Map </h3><h2>Sergio Barbosa CEE 514 02/24/2020 </h2>
+      <h2> HW8-Getting Started with HydroShare </h2>
+
+      </div>
+
+<div id="map"></div>
+
+
+<script>
+// Create leaflet map.
+var map = new L.Map('map').setView([0,0], 1.45);
+
+
+// Create & add OSM layer.
+var osm = new L.TileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
+
+
+// Create & add WMS-layer.
+var USA = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-9c356b48d1e44843b5f92706c8fce3af/wms', {
+  layers: 'Countries gadm36_USA_shp gadm36_USA_0',
+  format: 'image/png',
+  transparent: true,
+   }).addTo(map);
+
+var ENGLAND = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-9c356b48d1e44843b5f92706c8fce3af/wms', {
+  layers: 'Countries gadm36_GBR_shp gadm36_GBR_0',
+  format: 'image/png',
+  transparent: true,
+}).addTo(map);
+
+var SPAIN = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-9c356b48d1e44843b5f92706c8fce3af/wms', {
+  layers: 'Countries gadm36_ESP_shp gadm36_ESP_0',
+  format: 'image/png',
+  transparent: true,
+}).addTo(map);
+
+var FRANCE = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-9c356b48d1e44843b5f92706c8fce3af/wms', {
+  layers: 'Countries gadm36_FRA_shp gadm36_FRA_0',
+  format: 'image/png',
+  transparent: true,
+}).addTo(map);
+
+var GREECE = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-9c356b48d1e44843b5f92706c8fce3af/wms', {
+  layers: 'Countries gadm36_GRC_shp gadm36_GRC_0',
+  format: 'image/png',
+  transparent: true,
+}).addTo(map);
+
+var ITALY = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-9c356b48d1e44843b5f92706c8fce3af/wms', {
+  layers: 'Countries gadm36_ITA_shp gadm36_ITA_0',
+  format: 'image/png',
+  transparent: true,
+}).addTo(map);
+
+var VENEZUELA = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-9c356b48d1e44843b5f92706c8fce3af/wms', {
+  layers: 'Countries gadm36_VEN_shp gadm36_VEN_0',
+  format: 'image/png',
+  transparent: true,
+}).addTo(map);
+
+var CITIES = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-9c356b48d1e44843b5f92706c8fce3af/wms', {
+  layers: 'Countries Cities cities',
+  format: 'image/png',
+  transparent:true,
+}).addTo(map);
+
+
+</script>
+
+</body>
+
+</html>
