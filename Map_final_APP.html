@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+       <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""
+    />
+
+    <script
+      src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+      integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+      crossorigin=""
+    ></script>
+
+<title>APP</title>
+
+<style>
+#map {
+   width: content-box;
+   height: 600px;
+
+}
+</style>
+
+</head>
+<link rel="stylesheet" type="text/css" href="style3.css">
+<body>
+      <div id="prin">
+      <h3> WINTER ROUTE FINDER </h3><h2>Sergio Barbosa CEE 514  </h2>
+      <h2> Final Project </h2>
+
+      </div>
+
+<div id="map"></div>
+
+
+<script>
+// Create leaflet map.
+var map = new L.Map('map').setView([39.419220,-111.950684], 6.0);
+
+
+// Create & add OSM layer.
+var osm = new L.TileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
+
+
+// Create & add WMS-layer.
+var Stations = L.tileLayer.wms('https://geoserver.hydroshare.org/geoserver/HS-3160423bc3fc4d1f9cf8c5be05312747/wms', {
+  layers: 'Station_Locations Station_Locations',
+  format: 'image/png',
+  transparent: true,
+   }).addTo(map);
+
+
+
+
+</script>
+
+</body>
+
+</html>
